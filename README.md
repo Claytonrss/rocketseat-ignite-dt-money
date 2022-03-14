@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+<div align="center">
+  <img src="ignite.png">
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center"> RocketSeat - Ignite ReactJS 🔥</h1>
 
-## Available Scripts
 
-In the project directory, you can run:
+<h2 align="center"> Módulo 2 - Primeira aplicação web com React ( DT Money ) </h2>
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- Sobre o Projeto -->
+## 🚀 Sobre o Projeto
+DT Money é um controle de contas financeiro pessoal que cadastra contas de entrada e saída, totaliza em cards utilizando uma biblioteca de Fake API MirajeJS que utiliza o formato JSON para fazer os cadastros. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🖼️ Imagens do Projeto
+<div align="center">
+  <img src="screenshot-001.png">
+</div>
+<div align="center">
+  <img src="screenshot-002.png">
+</div>
+<div align="center">
+  <img src="./Assets/tela3.png">
+</div>
 
-### `yarn test`
+## Tecnologias e Bibliotecas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [ReactJS](https://pt-br.reactjs.org/tutorial/tutorial.html)
+  * [Styled Component](https://www.npmjs.com/package/styled-components) - Biblioteca CSS in JS
+  * [Axios](https://www.npmjs.com/package/axios)
+  * [React Modal](https://www.npmjs.com/package/react-modal)
+  * [Polished](https://www.npmjs.com/package/polished)
+* [TypeScript](https://www.typescriptlang.org/)
+* [MirageJS]()
 
-### `yarn build`
+## ⚙️ Rodando o Projeto
+```bash
+# Clone este repositório
+$ git clone https://github.com/Claytonrss/rocketseat-ignite-dt-money.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Acesse a pasta rocketseat-ignite-dt-money
+$ cd rocketseat-ignite-dt-money
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Instale as dependências
+$ yarn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Executando o Projeto
+$ yarn start
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Acesse http://localhost:3000 no seu navegador
+```
